@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    {% block head %}
+        <title>首页_杨青个人博客 - 一个站在web前端设计之路的女技术员个人博客网站</title>
+        <meta name="keywords" content="个人博客,杨青个人博客,个人博客模板,杨青"/>
+        <meta name="description" content="杨青个人博客，是一个站在web前端设计之路的女程序员个人网站，提供个人博客模板免费资源下载的个人原创网站。"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/static/web/css/base.css" rel="stylesheet">
+        <link href="/static/web/css/index.css" rel="stylesheet">
+        <link href="/static/web/css/m.css" rel="stylesheet">
+        <script src="/static/web/js/jquery.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="/static/web/js/comm.js"></script>
+        <!--[if lt IE 9]>
+        <script src="/static/web/js/modernizr.js"></script>
+        <![endif]-->
+    {% endblock %}
+
+</head>
+<body>
+{% block header %}
+    <header class="header-navigation" id="header">
+        <nav>
+            <div class="logo"><a href="http://www.yangqq.com/">杨青个人博客</a></div>
+            <h2 id="mnavh"><span class="navicon"></span></h2>
+            <ul id="starlist">
+                <li><a href="/templates/web/index/">网站首页</a></li>
+                <li><a href="/static/web/share/">我的相册</a></li>
+                <li><a href="/static/web/list/">我的日记</a></li>
+                <li><a href="/static/web/about/">关于我</a></li>
+                <li><a href="/static/web/gbook/">留言</a></li>
+                <li><a href="/static/web/info/">内容页</a></li>
+                <li><a href="/static/web/infopic/">内容页</a></li>
+            </ul>
+        </nav>
+    </header>
+{% endblock %}
+
+{% block body %}
+
+{% endblock %}
+
+<footer>
+    {% block footer %}
+        <p>Design by <a href="http://www.yangqq.com" target="_blank">杨青个人博客</a> <a href="/">蜀ICP备11002373号-1</a></p>
+    {% endblock %}
+</footer>
+{% block last %}
+    <a href="#" class="cd-top">Top</a>
+{% endblock %}
+
+
+</body>
+</html>
